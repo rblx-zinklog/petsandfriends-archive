@@ -3,22 +3,22 @@
     {
       "id": "documents",
       "name": "Documents",
-      "description": "Short fiction and tall tales, mostly featuring animals and the people who love them."
+      "description": "Declassified documents."
     },
     {
       "id": "sources",
       "name": "Sources",
-      "description": "Longer thoughts on friendship, animals and the small things that matter."
+      "description": "Primary historical sources."
     },
     {
-      "id": "guides",
-      "name": "Guides & How-Tos",
-      "description": "Practical, plain-spoken guides to living well with pets."
+      "id": "music",
+      "name": "Music & Poetry",
+      "description": "Original songs and poems."
     },
     {
-      "id": "poetry",
-      "name": "Poetry & Verse",
-      "description": "Original poems, long and short."
+      "id": "other",
+      "name": "Other",
+      "description": "Everything else."
     }
   ],
   "documents": [
@@ -29,6 +29,14 @@
       "date": "2026-11-10",
       "file": "documents/rossy-loaves.html",
       "tags": ["figures"]
+    },
+    {
+      "title": "Book of Garb: Life and Story",
+      "description": "A biography on Garb.",
+      "category": "sources",
+      "date": "2026-11-14",
+      "file": "documents/book-of-garb.html",
+      "tags": ["figures", "stories"]
     }
   ]
 }

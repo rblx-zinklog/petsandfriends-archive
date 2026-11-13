@@ -367,6 +367,45 @@ mark { background: #ffe680; color: inherit; padding: 0 1px; }
 .doc-nav .next { text-align: right; }
 .doc-nav .back { flex-basis: 100%; text-align: center; order: 3; }
 
+/* ---------- Slideshow ---------- */
+
+.slideshow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px auto;
+  max-width: 700px;
+}
+
+.slideshow img {
+  width: 100%;
+  max-width: 550px;
+  height: 400px;
+  object-fit: contain;
+  background: #111;
+}
+
+.slide-button {
+  cursor: pointer;
+  border: none;
+  background: #333;
+  color: white;
+  font-size: 24px;
+  padding: 12px 16px;
+  border-radius: 5px;
+}
+
+.slide-button:hover {
+  background: #555;
+}
+
+.slide-counter {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
 /* ---------- Small screens ---------- */
 
 @media (max-width: 780px) {

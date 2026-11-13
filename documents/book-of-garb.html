@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Keep the title here: it is what appears in browser tabs and search engines.
+       The visible heading, date, category and tags come from data/documents.json. -->
+  <title>Rossy Loaves — Pets &amp; Friends Archive</title>
+  <link rel="icon" type="image/png" href="../assets/icon.png">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="document">
+
+  <main id="page-content">
+    <!-- Write your publication inside the article below.
+         Do not add an <h1>: the title is added automatically.
+         Use <h2> and <h3> for section headings and <p> for paragraphs.
+         Optional helpers: <p class="dedication">, <div class="verse">, <p class="note">,
+         <blockquote>, <hr> (shows a decorative divider), and class="no-dropcap" on the article. -->
+    <article class="document-body">
+      <p>The Book of Garb: Life and Story. Authored by Clive Christian in Ussuriysk, 1998.</p>
+
+      <div class="slideshow">
+        <button class="slide-button" onclick="changeSlide(-1)">&#10094;</button>
+        <img id="slideshow-image" src="../assets/book-of-garb/image1.png" alt="Archive image">
+        <button class="slide-button" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+
+     <p id="slide-counter" class="slide-counter">1 / 9</p>
+</article>
+  </main>
+
+  <script src="../js/site.js"></script>
+</body>
+</html>
+
+<script src="../js/site.js"></script>
+
+<script>
+  const images = [
+    "../assets/book-of-garb/image1.png",
+    "../assets/book-of-garb/image2.png",
+    "../assets/book-of-garb/image3.png",
+    "../assets/book-of-garb/image4.png",
+    "../assets/book-of-garb/image5.png",
+    "../assets/book-of-garb/image6.png",
+    "../assets/book-of-garb/image7.png",
+    "../assets/book-of-garb/image8.png",
+    "../assets/book-of-garb/image9.png"
+  ];
+
+  let currentSlide = 0;
+
+  function changeSlide(direction) {
+    currentSlide += direction;
+
+    if (currentSlide >= images.length) {
+      currentSlide = 0;
+    }
+
+    if (currentSlide < 0) {
+      currentSlide = images.length - 1;
+    }
+
+    document.getElementById("slideshow-image").src = images[currentSlide];
+
+    document.getElementById("slide-counter").textContent =
+      (currentSlide + 1) + " / " + images.length;
+  }
+</script>
+
+</body>
+</html>
