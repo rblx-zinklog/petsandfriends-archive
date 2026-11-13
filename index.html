@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pets &amp; Friends Archive — A Library of Original Writings</title>
+  <meta name="description" content="An online library of original stories, essays, guides and poems.">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+  <main id="page-content">
+    <h1>Welcome to the Archive</h1>
+
+    <p class="lede">A quiet corner of the internet where stories, essays, guides and poems are kept for anyone who cares to read them.</p>
+
+    <p>
+      The <strong>Pets &amp; Friends Archive</strong> is a personal library of texts and publications
+      written by one author on a variety of subjects: the animals we share our lives with,
+      the friends we make along the way, and whatever else seems worth setting down on paper.
+      Everything here is original, and everything is free to read.
+    </p>
+    <p>
+      New writings are added from time to time. You may browse the
+      <a href="catalogue.html">complete catalogue</a>, search for a particular subject with the
+      <a href="search.html">search page</a>, or begin with the most recent publications below.
+    </p>
+
+    <noscript><p class="notice">This library loads its publication lists with JavaScript. Please enable JavaScript, or open the <a href="catalogue.html">catalogue</a>.</p></noscript>
+
+    <p class="updated">
+      Currently <span data-archive="count">&hellip;</span> publications &bull;
+      last addition <span data-archive="latest-date">&hellip;</span>
+    </p>
+
+    <div class="ornament" aria-hidden="true">&#10086;</div>
+
+    <h2>Recently Published</h2>
+    <div class="entry-list" data-archive="recent" data-count="6">
+      <p class="loading">Loading the latest publications&hellip;</p>
+    </div>
+    <p class="more-link"><a href="catalogue.html">Browse the complete catalogue &raquo;</a></p>
+
+    <div class="ornament" aria-hidden="true">&#10086;</div>
+
+    <h2>Browse by Category</h2>
+    <div class="category-grid" data-archive="categories">
+      <p class="loading">Loading categories&hellip;</p>
+    </div>
+  </main>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
