@@ -19,9 +19,9 @@
 
   var CONFIG = {
     siteName: "Pets & Friends Archive",
-    tagline: "A private library of original writings",
+    tagline: "The official archive of all pets and friends alike.",
     established: 2026,
-    footerNote: "All writings in this archive are original works by the author. Please do not copy or republish them without permission.",
+    footerNote: "All writings in this archive are original works by the authors. Do not copy or republish them without permission.",
     dataFile: "data/documents.json",
     logo: { src: "assets/logo.png", width: 1040, height: 230 },
     recentCount: 6,   // "Recently published" items on the home page
