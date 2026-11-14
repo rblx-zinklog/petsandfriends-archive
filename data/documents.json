@@ -1,9 +1,9 @@
 {
   "categories": [
     {
-      "id": "documents",
-      "name": "Documents",
-      "description": "Declassified documents."
+      "id": "articles",
+      "name": "Articles",
+      "description": "General articles."
     },
     {
       "id": "sources",
@@ -25,11 +25,22 @@
     {
       "title": "Rossy Loaves",
       "description": "The individual founder of the Pets & Friends Facility.",
-      "category": "documents",
+      "category": "articles",
       "date": "2026-11-10",
       "file": "documents/rossy-loaves.html",
       "tags": ["figures"]
     },
+    {
+      "title": "Pen Security",
+      "description": "An organisation specialising in security for pets and friends.",
+      "category": "articles",
+      "date": "2026-11-10",
+      "file": "documents/pen-security.html",
+      "tags": ["organisations"]
+    },
+
+
+
     {
       "title": "Book of Garb: Life and Story",
       "description": "A biography on Garb.",
@@ -46,6 +57,9 @@
       "file": "documents/pen-security-recruitment-campaign-video.html",
       "tags": ["videos", "songs"]
     },
+
+
+
     {
       "title": "Ode to Pen",
       "description": "A poem admiring Pen.",
