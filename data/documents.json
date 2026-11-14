@@ -38,6 +38,14 @@
       "file": "documents/pen-security.html",
       "tags": ["organisations"]
     },
+    {
+      "title": "Republic of Penland",
+      "description": "A country led by Pen.",
+      "category": "articles",
+      "date": "2026-11-10",
+      "file": "documents/republic-of-penland.html",
+      "tags": ["countries"]
+    },
 
 
 
@@ -55,7 +63,15 @@
       "category": "sources",
       "date": "2026-11-14",
       "file": "documents/pen-security-recruitment-campaign-video.html",
-      "tags": ["videos", "songs"]
+      "tags": ["videos", "songs", "military"]
+    },
+    {
+      "title": "PM-25 Condor",
+      "description": "Adaptation of the MiG-25 for the Pennish Air Force.",
+      "category": "sources",
+      "date": "2026-11-14",
+      "file": "documents/pm-25-condor.html",
+      "tags": ["military"]
     },
 
 
