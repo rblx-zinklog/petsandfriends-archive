@@ -11,9 +11,9 @@
       "description": "Primary historical sources."
     },
     {
-      "id": "music",
-      "name": "Music & Poetry",
-      "description": "Original songs and poems."
+      "id": "poetry",
+      "name": "Poetry & Music",
+      "description": "Original poems and songs."
     },
     {
       "id": "other",
@@ -37,6 +37,22 @@
       "date": "2026-11-14",
       "file": "documents/book-of-garb.html",
       "tags": ["figures", "stories"]
+    },
+    {
+      "title": "Pen Security: Recruitment Campaign Video",
+      "description": "The official video used in the recruitment campaign.",
+      "category": "sources",
+      "date": "2026-11-14",
+      "file": "documents/pen-security-recruitment-campaign-video.html",
+      "tags": ["videos", "songs"]
+    },
+    {
+      "title": "Ode to Pen",
+      "description": "A poem admiring Pen.",
+      "category": "poetry",
+      "date": "2026-11-14",
+      "file": "documents/ode-to-pen.html",
+      "tags": ["poems"]
     }
   ]
 }
