@@ -91,6 +91,14 @@
       "date": "2026-11-14",
       "file": "documents/ode-to-pen.html",
       "tags": ["poems"]
+    },
+    {
+      "title": "Genie in a Bottle",
+      "description": "Associated with freezing conditions.",
+      "category": "poetry",
+      "date": "2026-11-14",
+      "file": "documents/genie-in-a-bottle.html",
+      "tags": ["songs"]
     }
   ]
 }
